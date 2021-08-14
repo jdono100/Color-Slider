@@ -1,13 +1,13 @@
+import ColorBrowser from './components/ColorBrowser';
 import Header from './components/Header';
-import Slider from './components/Slider';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Slider name="red"/>
-      <Slider name="green"/>
-      <Slider name="blue"/>
+      <div className="mt-20">
+        <ColorBrowser />
+      </div>
     </div>
   );
 }
